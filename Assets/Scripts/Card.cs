@@ -58,7 +58,7 @@ public class Card : MonoBehaviour
 
     public void ChangeColor(Color newColor)
     {
-        GetComponent<Image>().color = newColor;
+        frontImage.GetComponent<Image>().color = newColor;
     }
     
     public void SetSprite(Sprite sprite)
